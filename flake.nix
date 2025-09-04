@@ -14,6 +14,12 @@
             pkgs.automake
             pkgs.flex
           ];
+          nativeBuildInputs = [
+            # pkgs.bison
+            pkgs.autoconf
+            pkgs.automake
+            # pkgs.flex
+          ];
           shellHook = ''
             echo hi
           '';
