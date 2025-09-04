@@ -21,7 +21,7 @@
             # pkgs.flex
           ];
           shellHook = ''
-            echo hi
+            # echo hi
           '';
         };
     };
