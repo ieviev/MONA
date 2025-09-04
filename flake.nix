@@ -9,6 +9,8 @@
         in
         pkgs.mkShell {
           buildInputs = [
+            pkgs.bison
+            pkgs.autoconf
             pkgs.automake
             pkgs.flex
           ];

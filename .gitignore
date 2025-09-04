@@ -22,4 +22,6 @@ Examples/presburger_transduction
 Front/mona
 Lib/dfa2dot
 Lib/gta2dot
-
+*.tar.gz
+**/makefile.in
+**/*.gta
